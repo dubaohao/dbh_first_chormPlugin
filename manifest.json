@@ -1,0 +1,43 @@
+{ 
+  "name": "DBH Plugin",
+  "description": "first try chrom plugin",
+  "version": "0.0.1",
+  "background": {
+      "scripts": ["page/js/background.js"],
+      "persistent": false
+  },
+  "browser_action":{
+    "default_title": "dbh",
+    "default_popup": "page/html/popup.html",
+    "default_icon":{
+      "16": "static/images/audit.png",
+      "32": "static/images/audit.png",
+      "48": "static/images/audit.png",
+      "128": "static/images/audit.png"
+    }
+  },
+  "options_page": "page/html/options.html",
+  "options_ui": {
+    "page": "page/html/options.html",
+    "chrome_style": true
+  },
+  "permissions": [
+    "declarativeContent",
+    "storage",
+    "contextMenus",
+    "notifications",
+    "webRequestBlocking", "storage",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "icons": {
+      "16": "static/images/audit.png",
+      "32": "static/images/audit.png",
+      "48": "static/images/audit.png",
+      "128": "static/images/audit.png"
+  },
+  "manifest_version": 2,
+  "homepage_url": "https://www.baidu.com",
+  "omnibox": { "keyword" : "dbh" },
+  "devtools_page": "page/html/devtools.html"
+}

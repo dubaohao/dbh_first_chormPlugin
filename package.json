@@ -1,0 +1,19 @@
+{
+  "name": "dbh_first_chromplugin",
+  "version": "0.0.1",
+  "description": "chrom插件尝试",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dubaohao/dbh_first_chormPlugin.git"
+  },
+  "author": "dubaohao24@126.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dubaohao/dbh_first_chormPlugin/issues"
+  },
+  "homepage": "https://github.com/dubaohao/dbh_first_chormPlugin#readme"
+}
